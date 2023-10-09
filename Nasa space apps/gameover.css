@@ -1,0 +1,44 @@
+.fundo{
+    background-image: url(https://img.freepik.com/vetores-premium/naves-na-superficie-do-planeta-paisagem-espacial-de-pixel-art-de-8-bits-ai-gerou-fundo-da-cena-do-jogo-localizacao-de-paralaxe-interestelar-com-motores-invasores-alienigenas-no-mundo-da-galaxia-distante-com-natureza-caprichosa_8071-54797.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 50px;
+    overflow: hidden;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,0, 0,.7);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    margin-top: 7%; 
+    left: 42%;
+    right: 50%; 
+    font-size: 30px;
+    font-family: 'Press Start 2P';
+    text-transform: uppercase;
+    color: black;
+    background-color: #385798;
+    padding: 10px;
+    box-shadow: 5px;
+    border: black 3px solid;
+}
+
+button:active{
+    transform: scale(0.96);
+}

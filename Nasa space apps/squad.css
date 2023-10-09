@@ -1,0 +1,50 @@
+.logo{
+    display: flex !important;
+    margin-left: 20px;
+}
+
+.navbar-class{
+    text-transform: uppercase !important;
+    color: yellow !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.navbar-name{
+    text-transform: uppercase !important;
+    color: red !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-style: oblique;
+}
+
+.name{
+    text-transform: uppercase;
+    color: white;
+}
+.navbar{
+    text-align: center !important;
+    display: flex !important;
+}
+
+.nav-link{
+    color: rgb(250, 233, 233) !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    justify-content: center;
+    text-align: center;
+    margin-left: 125px;
+}
+
+.nav-link:hover{
+    color: rgb(255, 255, 255) !important;
+}
+
+footer{
+    background-color: black !important;
+}
+
+footer h1{
+    color: white !important;
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" >
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+    <script src="function.js"></script>
+    <title>Home</title>
+  </head>
+  <body>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top nav_overlay_true">
+      <div class="logo">
+        <p class="navbar-name"> Emit</p>
+        <p class="navbar-class">pedia</p>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank">Game</a>
+          </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link" href="database\database.html">DataBase</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">1</a>
+              <a class="dropdown-item" href="#">2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">3</a>
+            </div>
+
+          <li class="nav-item">
+            <a class="nav-link" href="flashcard\flashcard.html">Flashcard</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Squad </a>
+          </li>
+
+          
+      </div>
+    </nav>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="70_1-EMIT_on_ISS.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="71_1-PIA25592_EMIT_methane_permian.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="63_EMIT_Home_picture_20200727a.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="info">
+        <img src="79_emit_website_science_objective_image_20200729a.png">
+        <div class="txt">
+            <h1>What is EMIT?</h1>
+            <p><strong>EMIT is a</strong></p>
+        </div>
+    </div>
+    <div class="teste">
+      <h1>More Informations</h1>
+      <nav class="imgs">
+        <a href="#"><img src="65_65_image004-(1)_4x3.jpg"></a>
+        <a href="#"><img src="66_66_image005-(1)_640.jpg"></a>
+        <a href="#"><img src="67_67_plume_4x3.jpg"></a>
+      </nav>
+    </div>
+    <footer class="footer">
+      <h5>Nasa site inspiration</h5>
+    </footer>
+    
+      <!-- Option 1: Bootstrap Bundle with Popper --> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      var nav = document.querySelector('nav');
+      window.addEventListener('scroll',function(){
+      if (window.pageYOffset > 100){
+        nav.classList.add('bg-dark','shadow');
+      }else{
+        nav.classList.remove('bg-dark');
+    }
+})
+    </script>
+  </body>
+</html>

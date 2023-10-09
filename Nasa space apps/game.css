@@ -1,0 +1,147 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game-board{
+    width: 1364px;
+    height: 651px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+body{
+    background-image: url(https://img.freepik.com/vetores-premium/naves-na-superficie-do-planeta-paisagem-espacial-de-pixel-art-de-8-bits-ai-gerou-fundo-da-cena-do-jogo-localizacao-de-paralaxe-interestelar-com-motores-invasores-alienigenas-no-mundo-da-galaxia-distante-com-natureza-caprichosa_8071-54797.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.meteoro{
+    position:absolute;
+    width: 80px;
+    top: 50px;
+    animation: animação-meteoro 1500ms infinite linear;
+    transform: rotate(48deg);
+
+}
+
+@keyframes animação-meteoro {
+    from{
+        right: -80px;
+
+    }
+
+    to{
+        right: 100%;
+    }
+
+}
+
+.nave{
+    height: 75px;
+    width: 90px;
+    transform: scalex(-1);
+    position: absolute;
+    bottom: 50%;
+}
+
+.up{
+    animation: up 1s linear infinite;
+}
+
+.right{
+    animation: front 0.5s linear infinite;
+}
+
+.down{
+    animation: down 0.5s linear infinite;
+}
+
+.left{
+    animation: back 0.5s linear infinite;
+}
+
+@keyframes up {
+    from{
+        transform: translateY(0) scaleX(-1);
+
+    }
+    to{
+        transform: translateY(-50px) scaleX(-1);
+    }
+}
+
+@keyframes down {
+    from{
+        transform: translateY(0) scaleX(-1);
+    }
+    to{
+        transform: translateY(50px) scaleX(-1);
+    }
+}
+
+@keyframes right {
+    from{
+        transform: translate(0) scaleX(-1);
+    }
+    to{
+        transform: translateX(50px) scaleX(-1)
+    }
+}
+
+@keyframes left {
+    from{
+        transform: translateX(0) scaleX(-1);
+    }
+    to{
+        transform: translateX(-50px) scaleX(-1);
+    }
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    padding-left: 50px;
+}
+
+#pontos{
+    text-align: center;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    padding-left: 50px;
+}
+
+@keyframes ouro {
+    from{
+        right: -60px;
+    }
+    to{
+        right: 1350px;
+    }
+
+
+}
+
+.ouro{
+    position: absolute;
+    height: 75px;
+    width: 90px;
+    bottom: 50%;
+    animation: ouro 2s infinite linear;
+}
